@@ -7,8 +7,8 @@ import App from './App.jsx'
 
 // Demo client ID - replace with your own in production
 // Get a real client ID from https://console.cloud.google.com/apis/credentials
-// This is a fake client ID for demonstration purposes
-const GOOGLE_CLIENT_ID = '397136856394-p4t8n8k0rr8i30heaclahm5oi6q9c89o.apps.googleusercontent.com'
+// This is a placeholder - you need to replace it with your own Google OAuth Client ID
+const GOOGLE_CLIENT_ID = 'your-google-oauth-client-id.apps.googleusercontent.com'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
