@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { GoogleLogin } from '@react-oauth/google';
-// Import jwt-decode differently for Vite compatibility
-import jwtDecode from 'jwt-decode';
 
 const Login = ({ isDarkMode, onLogin }) => {
   const [email, setEmail] = useState('');
@@ -26,15 +24,13 @@ const Login = ({ isDarkMode, onLogin }) => {
 
   const handleGoogleSuccess = (credentialResponse) => {
     try {
-      // Decode the JWT token received from Google
-      const decoded = jwtDecode(credentialResponse.credential);
-      console.log('Google login success:', decoded);
+      // Log the credential response
+      console.log('Google login success:', credentialResponse);
       
-      // You would normally send this token to your backend to verify and create a session
-      // For demo, we'll simulate a successful login
+      // For demo, we'll simulate a successful login without decoding
       onLogin();
     } catch (error) {
-      console.error('Error decoding Google token:', error);
+      console.error('Error with Google login:', error);
       setError('Failed to process Google login. Please try again.');
     }
   };
