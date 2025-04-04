@@ -1,183 +1,201 @@
-# UNIGEN HUB
 
-A modern, AI-powered website for content and data generation services. UNIGEN HUB features a sleek, futuristic design with dark-themed UI, neon-blue highlights, and smooth animations.
+# ⚡️ UNIGEN HUB 🧠
 
-## Features
+> A modern, AI-powered website for content and data generation services.  
+> **UNIGEN HUB** features a sleek, futuristic design with dark-themed UI, neon-blue highlights, and smooth animations.
 
-- **Dynamic Hero Section**: Interactive hologram animation showcasing the AI capabilities
-- **Problem Statement**: Explains how UNIGEN HUB solves content creation challenges
-- **Features Overview**: Displays core functionalities like AI-driven document creation
-- **Interactive AI Chatbot**: Generate documents, presentations, and images using OpenAI
-- **Call to Action**: Contact forms for user engagement
+---
 
-## Technologies Used
+## ✨ Features
 
-- React
-- Vite
-- Tailwind CSS
-- OpenAI API integration
+- 🤖 **Dynamic Hero Section**: Interactive hologram animation showcasing the AI capabilities  
+- 🧩 **Problem Statement**: Explains how UNIGEN HUB solves content creation challenges  
+- 🛠️ **Features Overview**: Displays core functionalities like AI-driven document creation  
+- 💬 **Interactive AI Chatbot**: Generate documents, presentations, and images using OpenAI  
+- 📩 **Call to Action**: Contact forms for user engagement  
 
-## Getting Started
+---
 
-### Prerequisites
+## 🧰 Technologies Used
 
-- Node.js (v14 or higher)
-- npm or yarn
-- OpenAI API key (for AI generation features)
+- ⚛️ React  
+- ⚡ Vite  
+- 🎨 Tailwind CSS  
 
-### Installation
+---
 
-1. Clone the repository
-   ```
-   git clone <repository-url>
-   cd unigen-hub
-   ```
+## 🛫 Getting Started
 
-2. Install dependencies
-   ```
-   npm install
-   ```
+### ✅ Prerequisites
 
-3. Set up environment variables
-   Create a `.env` file in the root directory with the following:
-   ```
-   VITE_OPENAI_API_KEY=your_openai_api_key_here
-   ```
-   
-   Alternatively, you can enter your API key directly in the UI when using the AI features.
+- 🔧 Node.js (v14 or higher)  
+- 📦 npm or yarn  
+- 🔐 OpenAI API key (for AI generation features)  
 
-4. Start the development server
-   ```
-   npm run dev
-   ```
+### 📥 Installation
 
-5. Open your browser and go to http://localhost:5173
+```bash
+git clone <repository-url>
+cd unigen-hub
+```
 
-## Using the AI Features
+```bash
+npm install
+```
+
+### 🔑 Set Up Environment Variables
+
+Create a `.env` file in the root directory with the following:
+```env
+VITE_OPENAI_API_KEY=your_openai_api_key_here
+```
+
+Or, enter your API key directly in the UI when using the AI features.
+
+### 🚀 Start the Development Server
+
+```bash
+npm run dev
+```
+
+🌐 Open your browser and go to: [http://localhost:5173](http://localhost:5173)
+
+---
+
+## 🤖 Using the AI Features
 
 UNIGEN HUB includes an interactive AI demo that allows you to:
 
-1. **Generate Documents**: Create well-structured documents on any topic
-2. **Create Presentations**: Build presentation outlines with slides
-3. **Generate Images**: Create custom images using AI
+- 📝 **Generate Documents**: Create well-structured documents on any topic  
+- 📊 **Create Presentations**: Build presentation outlines with slides  
+- 🎨 **Generate Images**: Create custom images using AI  
 
-To use these features, you need an OpenAI API key. You can either:
+You can use your OpenAI API key by:
 
-- Add it to your `.env` file as shown above
-- Enter it directly in the UI when prompted
+- Adding it to your `.env` file  
+- Entering it directly in the UI when prompted  
 
-## Building for Production
+---
 
-To create a production build:
+## 🏗️ Building for Production
 
-```
+```bash
 npm run build
 ```
 
-The built files will be in the `dist` directory, ready to be deployed to your hosting service.
+📁 The built files will be in the `dist` directory, ready for deployment.
 
-## License
+---
 
-[MIT](LICENSE)
+## 🧾 License
 
-## Acknowledgements
+🪪 [MIT](LICENSE)
 
-- [React](https://reactjs.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Vite](https://vitejs.dev/)
+---
 
-# UniGenHub Project
+## 🙌 Acknowledgements
 
-A modern document generation platform with Google OAuth integration and dark/light theme support.
+- 🌐 [React](https://reactjs.org/)  
+- 💨 [Tailwind CSS](https://tailwindcss.com/)  
+- ⚡ [Vite](https://vitejs.dev/)  
 
-![UniGenHub Dashboard](/images/dashboard-screenshot.png)
+---
 
-## Features
+# 📚 UniGenHub Project
 
-- **Google OAuth Integration**: Secure login with Google
-- **Dark/Light Theme Support**: Toggle between themes with consistent styling
-- **Responsive Design**: Works on all device sizes
-- **Modern UI**: Clean, professional interface with animations and transitions
+> A modern document generation platform with Google OAuth integration and dark/light theme support.
 
-## Screenshots
+![UniGenHub Dashboard](/images/Landing.png)
+
+---
+
+## 🌟 Features
+
+- 🔐 **Google OAuth Integration**: Secure login with Google  
+- 🌙🌞 **Dark/Light Theme Support**: Toggle between themes with consistent styling  
+- 📱 **Responsive Design**: Works on all device sizes  
+- 🖥️ **Modern UI**: Clean, professional interface with animations and transitions  
+
+---
+
+## 🖼️ Screenshots
 
 <div align="center">
-  <img src="/images/landing-dark.png" alt="Landing Page (Dark)" width="45%" />
-  <img src="/images/landing-light.png" alt="Landing Page (Light)" width="45%" />
+  <img src="/images/Document-Creator.png" alt="Landing Page (Dark)" width="45%" />
   <br/><br/>
-  <img src="/images/login-dark.png" alt="Login Modal (Dark)" width="45%" />
-  <img src="/images/login-light.png" alt="Login Modal (Light)" width="45%" />
+  <img src="/images/Dashboard.png" alt="Login Modal (Dark)" width="45%" />
   <br/><br/>
-  <img src="/images/dashboard-dark.png" alt="Dashboard (Dark)" width="45%" />
-  <img src="/images/dashboard-light.png" alt="Dashboard (Light)" width="45%" />
+  <img src="/images/Tools.png" alt="Dashboard (Dark)" width="45%" />
 </div>
 
-## Setup Instructions
+---
 
-1. Clone the repository:
+## ⚙️ Setup Instructions
+
 ```bash
 git clone <repository-url>
 cd project
 ```
 
-2. Install dependencies:
 ```bash
 npm install
 ```
 
-3. Configure Google OAuth:
-   - Create a project in the [Google Cloud Console](https://console.cloud.google.com/)
-   - Set up OAuth 2.0 credentials
-   - Add your domain to the authorized JavaScript origins (e.g., http://localhost:5173 for development)
-   - Update the `GOOGLE_CLIENT_ID` in `src/main.jsx` with your own client ID
+### 🔧 Configure Google OAuth
 
-4. Start the development server:
+1. Create a project in the [Google Cloud Console](https://console.cloud.google.com/)  
+2. Set up OAuth 2.0 credentials  
+3. Add your domain to the authorized JavaScript origins (e.g., `http://localhost:5173`)  
+4. Update the `GOOGLE_CLIENT_ID` in `src/main.jsx` with your client ID  
+
 ```bash
 npm run dev
 ```
 
-## Troubleshooting
+---
 
-### Google OAuth Not Working
-- Ensure you've created a valid Google OAuth client ID
-- Check that your authorized JavaScript origins includes your development URL
-- Make sure jwt-decode is installed with the correct version:
-```bash
-npm uninstall jwt-decode
-npm install jwt-decode@3.1.2
+## 🛠️ Troubleshooting
+
+### ❌ Google OAuth Not Working
+
+- Ensure valid OAuth client ID  
+- Check `authorized JavaScript origins`  
+- Reinstall `jwt-decode`:
+  ```bash
+  npm uninstall jwt-decode
+  npm install jwt-decode@3.1.2
+  ```
+
+### 🌘 Theme Issues
+
+- Check CSS variables in `src/index.css`  
+- Validate `dark` class in DOM  
+- Confirm MutationObserver setup  
+
+### 🧩 Import Errors
+
+- Use `jwtDecode` instead of `jwt_decode`  
+- Reinstall dependencies  
+- Restart dev server  
+
+---
+
+## 📦 Dependencies
+
+- ⚛️ React + React Router  
+- 🎨 Tailwind CSS  
+- 🔐 @react-oauth/google  
+- 🧾 jwt-decode@3.1.2  
+
+---
+
+## 🗂️ Code Structure
+
+```
+/src/components        → UI components  
+/src/components/auth   → Auth components (Login, Signup)  
+/src/pages             → Page components  
+/src/index.css         → Global styles & theme variables  
 ```
 
-### Theme Issues
-- If the dark theme appears inconsistent, check that the CSS variables in `src/index.css` are properly defined
-- Make sure the `document.documentElement.classList.contains('dark')` check is present in components
-- Verify that the MutationObserver is correctly set up to detect theme changes
-
-### Import Errors
-If you see errors related to module imports, try these solutions:
-- Use the import name `jwtDecode` instead of `jwt_decode`
-- Make sure all dependencies are properly installed in package.json
-- Try restarting the development server
-
-## Dependencies
-
-The main dependencies for this project are:
-- React + React Router
-- Tailwind CSS for styling
-- @react-oauth/google for Google authentication
-- jwt-decode@3.1.2 for handling JWT tokens
-
-## Code Structure
-
-- `/src/components`: UI components
-- `/src/components/auth`: Authentication components (Login, Signup)
-- `/src/pages`: Page components
-- `/src/index.css`: Global CSS including theme variables
-
-## Adding Screenshots
-
-To add your own screenshots to this README:
-
-1. Create an `/images` folder in the root of your project
-2. Take screenshots of your application in both dark and light modes
-3. Save them to the `/images` folder with descriptive names
-4. Update the image paths in this README to match your screenshot filenames
+---
